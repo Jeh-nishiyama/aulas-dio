@@ -14,12 +14,35 @@ body {
     background-color: rgb(177, 225, 255);
 }
 
+header{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-flex p{
+    color: black;
+    font-weight: bold;
+}
+
+.container-flex {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 200px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(241, 214, 214);
+}
+
 button {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     border: 2px solid lightcoral;
-    background-color: rgb(241, 214, 214);
+    background-color: #ffffff;
     color: lightcoral;
     font-size: 16pt;
     font-weight: 600;
@@ -35,4 +58,15 @@ button {
     align-items: center;
     margin: 0 20px;
     font-size: 16pt;
+}
+
+footer{
+    width: 500px;
+}
+
+.rodape{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
 }

@@ -7,13 +7,27 @@
     <title>~* Contador *~</title>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-    <p>Este é o meu projeto de contador do Javascript.</p>
-    <div id="counter">
-        <button name="subtrair" onclick="decrement()">-</button>
-        <span id="currentNumber">0</span>
-        <button name="adicionar" onclick="increment()">+</button>
+    <!--Cabeçalho com o título-->
+    <header>
+        <h1>Olá, mundo!</h1>
+    </header>
+
+    <!--começo da div com o flex box-->
+    <div class="container-flex">
+        <p>Este é o meu projeto de contador do Javascript.</p>
+        <div id="counter">
+            <button name="subtrair" onclick="decrement()">-</button>
+            <span id="currentNumber">0</span>
+            <button name="adicionar" onclick="increment()">+</button>
+        </div>
     </div>
+
+    <footer>
+        <div class="rodape">
+            <p>&copy; 2022 - Aula JavaScript</p>
+            <p>Desenvolvido por Jessica Nishiyama</p>
+        </div>
+    </footer>
     <script src="./assets/js/scripts.js"></script>
 </body>
 </html>
