@@ -10,3 +10,14 @@ function decrement() {
     currentNumber = currentNumber - 1;
     currentNumberWrapper.innerHTML = currentNumber;
 }
+
+/*
+
+while (currentNumber < 0) {
+    document.getElementById("currentNumber").style.color = "red";
+}
+
+else (currentNumber > 0) {
+
+}
+  */
