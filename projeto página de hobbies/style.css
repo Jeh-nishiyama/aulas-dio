@@ -1,0 +1,81 @@
+
+body {
+    background-color: pink;
+    max-width: 900px;
+    margin: auto;
+}
+
+.cabecalho {
+    padding-top: 15px;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+.cabecalho img{
+    border: 3px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    width: 100px;
+    
+}
+.cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: crimson;
+}
+
+.conteudo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo ul{
+    list-style-type: square;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.foto_comida {
+    width: 100%;
+}
+
+.comidas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.sobremesas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.viagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.viagens img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.rodape h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
